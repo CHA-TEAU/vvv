@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '307k15/vvv',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '307k15/vvv' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'firebase/php-jwt' => array(
+            'pretty_version' => 'v6.4.0',
+            'version' => '6.4.0.0',
+            'reference' => '4dd1e007f22a927ac77da5a3fbb067b42d3bc224',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../firebase/php-jwt',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'steampixel/simple-php-router' => array(
+            'pretty_version' => '0.7.1',
+            'version' => '0.7.1.0',
+            'reference' => 'c996d75b34c2c6da45d4dc737f61c0ee8fed5d2b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../steampixel/simple-php-router',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

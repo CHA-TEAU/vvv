@@ -1,0 +1,36 @@
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+
+.reg--form {
+    margin: 200px auto;
+
+    padding: 50px;
+    width: 400px;
+  
+
+    background-color: #790953;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#regbtn {
+    margin: 10px 0 0 30%;
+    width: 140px;
+    height: 40px;
+
+    background-color: #45dee9;
+    border: none;
+}
+
+#regbtn:hover{
+    background-color: #7decf4;
+    font-size: 18px;
+}
